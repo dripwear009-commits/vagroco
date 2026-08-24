@@ -61,6 +61,7 @@
       <nav id="nav-founder" class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-400">
         <a href="#how-it-works" class="hover:text-emerald-400 transition-colors">How It Works</a>
         <a href="#demo-diagnostic" class="hover:text-emerald-400 transition-colors">5-Question Diagnostic</a>
+        <a href="#scorecard-breakdown" class="hover:text-emerald-400 transition-colors">Sample Audit Dossier</a>
         <a href="#vagroco-growth" class="hover:text-emerald-400 transition-colors">Growth Retainer</a>
         <a href="#founder-pricing" class="hover:text-emerald-400 transition-colors">Pricing</a>
       </nav>
@@ -68,9 +69,8 @@
       <!-- Investor Nav Links -->
       <nav id="nav-investor" class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-400">
         <a href="#investor-why" class="hover:text-emerald-400 transition-colors">Why Vagroco</a>
-        <a href="#investor-features" class="hover:text-emerald-400 transition-colors">Audit Methodology</a>
         <a href="#sample-deal-preview" class="hover:text-emerald-400 transition-colors">Deal Flow Preview</a>
-        <a href="#investor-pricing" class="hover:text-emerald-400 transition-colors">Membership Plans</a>
+        <a href="#investor-pricing" class="hover:text-emerald-400 transition-colors">Membership</a>
       </nav>
 
       <div class="flex items-center space-x-3">
@@ -97,7 +97,7 @@
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-200">Grow. Connect.</span>
       </h1>
       <p class="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-        Don't spend 6 months and ₹20 Lakh discovering nobody wants your product. Vagroco audits your idea, pairs you with an on-demand executive growth squad, and gets you funded.
+        Don't spend 6 months and ₹20 Lakh discovering nobody wants your product. Vagroco audits your idea across 7 dimensions, pairs you with an on-demand growth team, and connects you with verified capital.
       </p>
       <div class="flex flex-wrap justify-center gap-4">
         <a href="#demo-diagnostic" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-7 py-3.5 rounded-xl transition shadow-lg shadow-emerald-500/25 flex items-center gap-2">
@@ -114,9 +114,9 @@
     <!-- 5-Question Demo Diagnostic Tool -->
     <section id="demo-diagnostic" class="py-20 px-6 max-w-4xl mx-auto border-t border-slate-800">
       <div class="text-center max-w-2xl mx-auto mb-10">
-        <span class="text-emerald-400 text-xs font-bold uppercase tracking-wider">Interactive Preliminary Assessment</span>
+        <span class="text-emerald-400 text-xs font-bold uppercase tracking-wider">Preliminary Assessment</span>
         <h2 class="text-3xl font-bold mt-1 text-white">5-Question Venture Diagnostic</h2>
-        <p class="text-slate-400 text-sm mt-2">Answer these 5 operational questions to see how our algorithm generates a preliminary Vagroco Score.</p>
+        <p class="text-slate-400 text-sm mt-2">Answer 5 key operational questions to see your estimated baseline score and validation category.</p>
       </div>
 
       <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-10 shadow-2xl relative">
@@ -147,11 +147,11 @@
             <button id="btn-prev" onclick="prevQuestion()" class="hidden px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold">
               <i class="fa-solid fa-chevron-left mr-1"></i> Back
             </button>
-            <div class="ml-auto text-xs text-slate-500 italic">Select one answer to continue</div>
+            <div class="ml-auto text-xs text-slate-500 italic">Select an option to advance</div>
           </div>
         </div>
 
-        <!-- Result Container (Hidden Initially) -->
+        <!-- Result Container -->
         <div id="result-card" class="hidden text-center py-4">
           <div class="w-16 h-16 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 mx-auto flex items-center justify-center text-2xl mb-4">
             <i class="fa-solid fa-chart-pie"></i>
@@ -167,8 +167,8 @@
           </div>
 
           <div class="p-5 bg-slate-950 rounded-2xl border border-slate-800 text-left max-w-lg mx-auto text-xs text-slate-300 mb-8 space-y-2">
-            <p class="font-bold text-emerald-400"><i class="fa-solid fa-circle-info mr-1"></i> Important Note on Desk vs Real Audits:</p>
-            <p class="leading-relaxed">This is a 5-question automated sample. An official Vagroco Score involves 7-dimension audits, real customer testing panels, unit economics modeling, and verified specialist challenges.</p>
+            <p class="font-bold text-emerald-400"><i class="fa-solid fa-circle-info mr-1"></i> Official Audit Difference:</p>
+            <p class="leading-relaxed">This test is a rapid preview. An official Vagroco Score involves 7 comprehensive dimension audits, real-world customer test panels, unit economics stress tests, and verified specialist challenges.</p>
           </div>
 
           <div class="flex flex-wrap justify-center gap-3">
@@ -176,7 +176,158 @@
               <i class="fa-solid fa-rotate-left mr-1"></i> Retake Test
             </button>
             <a href="#founder-pricing" class="px-6 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs shadow-lg shadow-emerald-500/20">
-              Book Official Full Audit (₹25,000)
+              Book Official Audit (₹25,000)
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NEW INTERACTIVE AUDIT DOSSIER (Replaces old sliders) -->
+    <section id="scorecard-breakdown" class="py-20 px-6 max-w-7xl mx-auto border-t border-slate-800">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-emerald-400 text-xs font-bold uppercase tracking-wider">The Standardized Evaluation Engine</span>
+        <h2 class="text-3xl sm:text-4xl font-bold text-white mt-1">Official Vagroco Audit Dossier</h2>
+        <p class="text-slate-400 text-sm mt-2">Explore what verified investors and founders receive upon completing a full 7-dimension audit.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        <!-- Left: Interactive Pillar Navigator -->
+        <div class="lg:col-span-5 space-y-2.5">
+          <div class="text-xs uppercase tracking-wider text-slate-400 font-bold mb-3 px-1">Select Dimension to Inspect:</div>
+          
+          <button onclick="inspectPillar(0)" id="pillar-tab-0" class="w-full text-left p-4 rounded-xl border bg-emerald-950/30 border-emerald-500/50 flex items-center justify-between transition">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-xs">1</div>
+              <div>
+                <h4 class="font-bold text-white text-sm">Market Opportunity</h4>
+                <p class="text-[11px] text-slate-400">TAM/SAM sizing &amp; demand validation</p>
+              </div>
+            </div>
+            <span class="font-mono font-bold text-emerald-400 text-sm">91/100</span>
+          </button>
+
+          <button onclick="inspectPillar(1)" id="pillar-tab-1" class="w-full text-left p-4 rounded-xl border bg-slate-900 border-slate-800 hover:border-slate-700 flex items-center justify-between transition">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center font-bold text-xs">2</div>
+              <div>
+                <h4 class="font-bold text-slate-200 text-sm">Competition &amp; Moat</h4>
+                <p class="text-[11px] text-slate-400">Positioning &amp; defensibility</p>
+              </div>
+            </div>
+            <span class="font-mono font-bold text-slate-400 text-sm">76/100</span>
+          </button>
+
+          <button onclick="inspectPillar(2)" id="pillar-tab-2" class="w-full text-left p-4 rounded-xl border bg-slate-900 border-slate-800 hover:border-slate-700 flex items-center justify-between transition">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center font-bold text-xs">3</div>
+              <div>
+                <h4 class="font-bold text-slate-200 text-sm">Product Feasibility</h4>
+                <p class="text-[11px] text-slate-400">MVP usability &amp; technical build</p>
+              </div>
+            </div>
+            <span class="font-mono font-bold text-slate-400 text-sm">84/100</span>
+          </button>
+
+          <button onclick="inspectPillar(3)" id="pillar-tab-3" class="w-full text-left p-4 rounded-xl border bg-slate-900 border-slate-800 hover:border-slate-700 flex items-center justify-between transition">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center font-bold text-xs">4</div>
+              <div>
+                <h4 class="font-bold text-slate-200 text-sm">Financial Viability</h4>
+                <p class="text-[11px] text-slate-400">Gross margins, CAC &amp; burn rate</p>
+              </div>
+            </div>
+            <span class="font-mono font-bold text-slate-400 text-sm">81/100</span>
+          </button>
+
+          <button onclick="inspectPillar(4)" id="pillar-tab-4" class="w-full text-left p-4 rounded-xl border bg-slate-900 border-slate-800 hover:border-slate-700 flex items-center justify-between transition">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center font-bold text-xs">5</div>
+              <div>
+                <h4 class="font-bold text-slate-200 text-sm">Scalability &amp; Channels</h4>
+                <p class="text-[11px] text-slate-400">Distribution velocity &amp; bottlenecks</p>
+              </div>
+            </div>
+            <span class="font-mono font-bold text-slate-400 text-sm">88/100</span>
+          </button>
+
+          <button onclick="inspectPillar(5)" id="pillar-tab-5" class="w-full text-left p-4 rounded-xl border bg-slate-900 border-slate-800 hover:border-slate-700 flex items-center justify-between transition">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center font-bold text-xs">6</div>
+              <div>
+                <h4 class="font-bold text-slate-200 text-sm">Industry &amp; Regulation</h4>
+                <p class="text-[11px] text-slate-400">Compliance &amp; legal barriers</p>
+              </div>
+            </div>
+            <span class="font-mono font-bold text-slate-400 text-sm">82/100</span>
+          </button>
+
+          <button onclick="inspectPillar(6)" id="pillar-tab-6" class="w-full text-left p-4 rounded-xl border bg-slate-900 border-slate-800 hover:border-slate-700 flex items-center justify-between transition">
+            <div class="flex items-center gap-3">
+              <div class="w-8 h-8 rounded-lg bg-slate-800 text-slate-300 flex items-center justify-center font-bold text-xs">7</div>
+              <div>
+                <h4 class="font-bold text-slate-200 text-sm">Founder Execution</h4>
+                <p class="text-[11px] text-slate-400">Team balance, track record &amp; speed</p>
+              </div>
+            </div>
+            <span class="font-mono font-bold text-slate-400 text-sm">86/100</span>
+          </button>
+        </div>
+
+        <!-- Right: Dynamic Dossier Viewer -->
+        <div class="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 flex flex-col justify-between shadow-2xl">
+          <div>
+            <div class="flex flex-wrap items-center justify-between gap-3 pb-5 border-b border-slate-800">
+              <div>
+                <span id="dossier-pill" class="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Dimension Audit 1 of 7</span>
+                <h3 id="dossier-title" class="text-2xl font-extrabold text-white mt-2">Market Opportunity Audit</h3>
+              </div>
+              <div class="text-right">
+                <span class="text-xs text-slate-400 block">Dimension Score</span>
+                <span id="dossier-score" class="text-3xl font-mono font-black text-emerald-400">91/100</span>
+              </div>
+            </div>
+
+            <!-- Evidence Matrix -->
+            <div class="my-6 space-y-4 text-xs">
+              <div class="p-4 rounded-xl bg-slate-950 border border-slate-800">
+                <span class="font-bold text-slate-200 block mb-1">
+                  <i class="fa-solid fa-magnifying-glass-chart text-emerald-400 mr-1.5"></i>
+                  Auditor Findings &amp; Evidence:
+                </span>
+                <p id="dossier-findings" class="text-slate-400 leading-relaxed">
+                  TAM estimated at ₹4,200 Cr in India with 28% CAGR. 120 verified customer survey responses completed; 78% of enterprise beta respondents confirm willingness to switch within 60 days.
+                </p>
+              </div>
+
+              <div class="grid grid-cols-2 gap-3">
+                <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800">
+                  <span class="text-slate-500 block text-[10px] uppercase font-bold">Key Strength</span>
+                  <span id="dossier-strength" class="font-semibold text-emerald-400 mt-0.5 block">High organic demand pull &amp; clear SAM definition</span>
+                </div>
+                <div class="p-3.5 rounded-xl bg-slate-950 border border-slate-800">
+                  <span class="text-slate-500 block text-[10px] uppercase font-bold">Key Vulnerability</span>
+                  <span id="dossier-risk" class="font-semibold text-amber-400 mt-0.5 block">Tier-2 regional language localization required</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Certified Benchmark Rubric -->
+            <div class="p-4 rounded-xl border border-slate-800/80 bg-slate-900/50">
+              <span class="text-[11px] font-bold text-slate-300 block mb-2">Directional Vagroco Rating:</span>
+              <div class="flex items-center gap-3">
+                <span class="px-3 py-1 bg-emerald-500 text-slate-950 font-black rounded text-xs">START</span>
+                <span class="text-xs text-slate-300">Composite Score across all 7 dimensions: <strong class="text-white font-mono">84 / 100</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <span class="text-xs text-slate-400">Want your business formally audited?</span>
+            <a href="#founder-pricing" class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-6 py-2.5 rounded-xl text-xs transition text-center">
+              Order Your Certified Audit
             </a>
           </div>
         </div>
@@ -271,7 +422,7 @@
           <div class="text-center lg:text-right bg-slate-950 p-6 rounded-2xl border border-slate-800 w-full lg:w-auto">
             <div class="text-3xl font-extrabold text-white">₹75,000 <span class="text-xs font-normal text-slate-400">/ mo</span></div>
             <p class="text-[11px] text-emerald-400 font-medium mt-1 mb-4">No long-term lock-in • Cancel anytime</p>
-            <button onclick="switchPortal('founder'); window.location.href='#founder-pricing';" class="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-6 py-3 rounded-xl transition text-sm">
+            <button onclick="window.location.href='#founder-pricing';" class="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-6 py-3 rounded-xl transition text-sm">
               Subscribe to Growth Team
             </button>
           </div>
@@ -364,7 +515,7 @@
         <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-200">Invest in pre-audited ventures.</span>
       </h1>
       <p class="text-lg text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-        Access an exclusive deal pipeline where every early-stage startup has undergone rigorous 7-dimension feasibility audits and real customer testing.
+        Access an exclusive deal pipeline where early-stage startups have undergone standardized 7-dimension feasibility audits and real customer testing.
       </p>
       <div class="flex flex-wrap justify-center gap-4">
         <a href="#investor-pricing" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-7 py-3.5 rounded-xl transition shadow-lg shadow-emerald-500/25">
@@ -412,7 +563,7 @@
       </div>
     </section>
 
-    <!-- Locked Pipeline Preview (What Paid Users Get) -->
+    <!-- Locked Pipeline Preview -->
     <section id="sample-deal-preview" class="py-20 px-6 max-w-7xl mx-auto">
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
         <div>
@@ -427,8 +578,6 @@
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative">
-        
-        <!-- Blurred / Locked Cards Preview -->
         <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 relative overflow-hidden">
           <div class="flex justify-between items-center mb-3">
             <span class="text-xs px-2.5 py-0.5 rounded-full border bg-emerald-500/10 text-emerald-400 border-emerald-500/20 font-bold">START (86/100)</span>
@@ -443,7 +592,7 @@
             <div class="flex justify-between"><span>Customer Testing:</span> <span class="font-mono text-emerald-400 font-bold">Verified</span></div>
           </div>
 
-          <button onclick="switchPortal('investor'); window.location.href='#investor-pricing';" class="w-full mt-4 bg-slate-800 hover:bg-slate-700 text-slate-300 py-2 rounded-lg text-xs font-semibold flex items-center justify-center gap-2">
+          <button onclick="window.location.href='#investor-pricing';" class="w-full mt-4 bg-slate-800 hover:bg-slate-700 text-slate-300 py-2 rounded-lg text-xs font-semibold flex items-center justify-center gap-2">
             <i class="fa-solid fa-lock text-xs"></i> Unlock Full Report
           </button>
         </div>
@@ -462,7 +611,7 @@
             <div class="flex justify-between"><span>Regulatory Audit:</span> <span class="font-mono text-emerald-400 font-bold">Passed</span></div>
           </div>
 
-          <button onclick="switchPortal('investor'); window.location.href='#investor-pricing';" class="w-full mt-4 bg-slate-800 hover:bg-slate-700 text-slate-300 py-2 rounded-lg text-xs font-semibold flex items-center justify-center gap-2">
+          <button onclick="window.location.href='#investor-pricing';" class="w-full mt-4 bg-slate-800 hover:bg-slate-700 text-slate-300 py-2 rounded-lg text-xs font-semibold flex items-center justify-center gap-2">
             <i class="fa-solid fa-lock text-xs"></i> Unlock Full Report
           </button>
         </div>
@@ -481,20 +630,19 @@
             <div class="flex justify-between"><span>Margin Growth:</span> <span class="font-mono text-emerald-400 font-bold">+18%</span></div>
           </div>
 
-          <button onclick="switchPortal('investor'); window.location.href='#investor-pricing';" class="w-full mt-4 bg-slate-800 hover:bg-slate-700 text-slate-300 py-2 rounded-lg text-xs font-semibold flex items-center justify-center gap-2">
+          <button onclick="window.location.href='#investor-pricing';" class="w-full mt-4 bg-slate-800 hover:bg-slate-700 text-slate-300 py-2 rounded-lg text-xs font-semibold flex items-center justify-center gap-2">
             <i class="fa-solid fa-lock text-xs"></i> Unlock Full Report
           </button>
         </div>
-
       </div>
     </section>
 
     <!-- Investor Membership Pricing -->
     <section id="investor-pricing" class="py-20 px-6 max-w-4xl mx-auto border-t border-slate-800">
       <div class="text-center max-w-xl mx-auto mb-12">
-        <span class="text-emerald-400 text-xs font-bold uppercase tracking-wider">Investor Deal Flow Subscription</span>
-        <h2 class="text-3xl font-bold text-white mt-1">Get Full Platform Access</h2>
-        <p class="text-slate-400 text-sm mt-2">Unlock unlimited audit reports, granular dimension filters, and 1-click founder introductions.</p>
+        <span class="text-emerald-400 text-xs font-bold uppercase tracking-wider">Investor Subscription</span>
+        <h2 class="text-3xl font-bold text-white mt-1">Get Full Deal Flow Access</h2>
+        <p class="text-slate-400 text-sm mt-2">Unlock unlimited audit reports, granular benchmark filters, and 1-click founder introductions.</p>
       </div>
 
       <div class="bg-slate-900 border-2 border-emerald-500 rounded-3xl p-8 sm:p-10 shadow-2xl relative">
@@ -518,7 +666,7 @@
           <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-emerald-400"></i> Priority invites to Vagroco Demo Days</div>
         </div>
 
-        <button onclick="alert('Investor onboarding simulation: Redirecting to verified credentials form.')" class="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold py-4 rounded-xl transition text-sm shadow-lg shadow-emerald-500/20">
+        <button onclick="alert('Investor verification requested. Redirecting to accreditation verification.')" class="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold py-4 rounded-xl transition text-sm shadow-lg shadow-emerald-500/20">
           Subscribe to Investor Access (₹7,500 / month)
         </button>
       </div>
@@ -543,9 +691,9 @@
     </div>
   </footer>
 
-  <!-- Interactive Scripts -->
+  <!-- Scripts -->
   <script>
-    // --- 1. Portal Switcher (Founder vs Investor) ---
+    // --- 1. Portal Switcher ---
     function switchPortal(role) {
       const founderView = document.getElementById('founder-view');
       const investorView = document.getElementById('investor-view');
@@ -583,7 +731,7 @@
       }
     }
 
-    // --- 2. 5-Question Venture Diagnostic Logic ---
+    // --- 2. 5-Question Diagnostic Logic ---
     const quizQuestions = [
       {
         category: "Dimension 1: Product Feasibility",
@@ -731,7 +879,90 @@
       renderQuestion();
     }
 
-    // Init quiz on load
+    // --- 3. Dossier Inspector Data & Function ---
+    const pillarDossiers = [
+      {
+        pill: "Dimension Audit 1 of 7",
+        title: "Market Opportunity Audit",
+        score: "91/100",
+        findings: "TAM estimated at ₹4,200 Cr in India with 28% CAGR. 120 verified customer survey responses completed; 78% of enterprise beta respondents confirm willingness to switch within 60 days.",
+        strength: "High organic demand pull & clear SAM definition",
+        risk: "Tier-2 regional language localization required"
+      },
+      {
+        pill: "Dimension Audit 2 of 7",
+        title: "Competition & Defensible Moat",
+        score: "76/100",
+        findings: "Two indirect legacy competitors identified. Startup offers 3x faster setup time. Defensibility verified through workflow lock-in and high switching friction for procurement departments.",
+        strength: "Superior proprietary UX and workflow automation",
+        risk: "Low barriers for funded incumbents to build rival features"
+      },
+      {
+        pill: "Dimension Audit 3 of 7",
+        title: "Product Feasibility & MVP Audit",
+        score: "84/100",
+        findings: "Core technical architecture verified by independent engineering lead. 30 active daily users on beta build with 99.4% uptime. API response times comfortably below 250ms SLA.",
+        strength: "Modular microservice architecture built to scale",
+        risk: "Third-party payment gateway latency risks"
+      },
+      {
+        pill: "Dimension Audit 4 of 7",
+        title: "Financial Viability & Unit Economics",
+        score: "81/100",
+        findings: "Gross margins verified at 74%. Estimated blended CAC of ₹1,800 against an Annual Contract Value (ACV) of ₹24,000 yields a strong CAC payback period of 3.2 months.",
+        strength: "High gross margins and rapid CAC payback",
+        risk: "High churn sensitivity if onboarding is delayed"
+      },
+      {
+        pill: "Dimension Audit 5 of 7",
+        title: "Scalability & Channel Velocity",
+        score: "88/100",
+        findings: "B2B partnership channel with 3 national trade associations verified. Zero physical hardware dependency allows 10x customer growth with negligible incremental overhead.",
+        strength: "Extremely low marginal cost of software distribution",
+        risk: "Enterprise sales cycle can extend to 45-60 days"
+      },
+      {
+        pill: "Dimension Audit 6 of 7",
+        title: "Industry & Regulatory Compliance",
+        score: "82/100",
+        findings: "Meets India DPDP Act standards and RBI tokenization guidelines. Verified zero pending IP infringement or trademark conflict risks.",
+        strength: "Clean legal structure and data localization compliance",
+        risk: "Frequent regulatory updates in digital payments"
+      },
+      {
+        pill: "Dimension Audit 7 of 7",
+        title: "Founder Execution & Team Balance",
+        score: "86/100",
+        findings: "Two co-founders with 7+ cumulative years in fintech ops and engineering. Demonstrates high sprint velocity (weekly product updates delivered on schedule).",
+        strength: "Complementary technical and domain-specific skillsets",
+        risk: "Needs to recruit a senior Head of Enterprise Sales"
+      }
+    ];
+
+    function inspectPillar(index) {
+      for (let i = 0; i < 7; i++) {
+        const tab = document.getElementById(`pillar-tab-${i}`);
+        if (i === index) {
+          tab.className = "w-full text-left p-4 rounded-xl border bg-emerald-950/30 border-emerald-500/50 flex items-center justify-between transition";
+          tab.querySelector('span').className = "font-mono font-bold text-emerald-400 text-sm";
+          tab.querySelector('div > div > h4').className = "font-bold text-white text-sm";
+        } else {
+          tab.className = "w-full text-left p-4 rounded-xl border bg-slate-900 border-slate-800 hover:border-slate-700 flex items-center justify-between transition";
+          tab.querySelector('span').className = "font-mono font-bold text-slate-400 text-sm";
+          tab.querySelector('div > div > h4').className = "font-bold text-slate-200 text-sm";
+        }
+      }
+
+      const d = pillarDossiers[index];
+      document.getElementById('dossier-pill').innerText = d.pill;
+      document.getElementById('dossier-title').innerText = d.title;
+      document.getElementById('dossier-score').innerText = d.score;
+      document.getElementById('dossier-findings').innerText = d.findings;
+      document.getElementById('dossier-strength').innerText = d.strength;
+      document.getElementById('dossier-risk').innerText = d.risk;
+    }
+
+    // Init on load
     renderQuestion();
   </script>
 </body>
